@@ -1,0 +1,18 @@
+public class GymnasticsScorer {
+
+    public static void main(String[] args) {
+        double a = Double.parseDouble(args[0]);
+        double b = Double.parseDouble(args[1]);
+        double c = Double.parseDouble(args[2]);
+        double d = Double.parseDouble(args[3]);
+        double e = Double.parseDouble(args[4]);
+        double f = Double.parseDouble(args[5]);
+
+        double max = Math.max(Math.max(Math.max(Math.max(Math.max((Math.max(a, b)), c), d)), e), f)
+        double min = Math.min(Math.min(Math.min(Math.min(Math.min((Math.min(a, b)), c), d)), e), f)
+
+        System.out.println("Score:" + ((a+b+c+d+e+f) - max - min)/4
+
+    }
+
+}
